@@ -1,0 +1,51 @@
+body {
+  background-color: #faf9f6;
+  color: #262626;
+  margin: 0;
+  padding-inline: 1rem;
+  padding-bottom: 2rem;
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, "Noto Serif", serif;
+  font-size: 1.125rem;
+  line-height: 1.35;
+}
+
+main {
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+dt {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+dd + dt {
+  margin-top: 1rem;
+}
+
+dt + dd {
+  margin-top: 0.25rem;
+}
+
+/* Hex approximations of Tailwind's sky and violet shades. */
+a:link {
+  color: #0069a8; /* sky-700 */
+}
+
+a:visited {
+  color: #7008e7; /* violet-700 */
+}
+
+a[href] {
+  text-decoration: underline;
+}
+
+a:link:hover,
+a:link:focus-visible {
+  color: #00598a; /* sky-800 */
+}
+
+a:visited:hover,
+a:visited:focus-visible {
+  color: #5d0ec0; /* violet-800 */
+}
